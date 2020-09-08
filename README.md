@@ -1,13 +1,13 @@
 # workenv
 work environment setup
 
-## ssh passwordless login 
-ssh-keygen -t rsa -b 4096 -C "name"  
-ls ~/.ssh/id_*  
-output: /root/.ssh/id_rsa  /root/.ssh/id_rsa.pub  
-ssh-copy-id username@server_ip_address  
+### ssh passwordless login 
+    ssh-keygen -t rsa -b 4096 -C "name"  
+    ls ~/.ssh/id_*  
+    output: /root/.ssh/id_rsa  /root/.ssh/id_rsa.pub  
+    ssh-copy-id username@server_ip_address  
 
-# tmux  
+## tmux  
 [tmux.conf](tmux.conf)  
 tmux source-file .tmux.conf  
 
@@ -27,7 +27,7 @@ tmux source-file .tmux.conf
     CTRL + w       # copy
     C-a + ]        # paste
 
-# vim
+## vim
 [vimrc](vimrc)  
 
   Command                       | Description
@@ -39,7 +39,7 @@ tmux source-file .tmux.conf
   shift + %                     | jump to matching brace
   shift + ()                    | jump funcs  
   
-  # vscode
+## vscode
 [setup](vscode/setup.txt)  
 
   Command                       | Description
