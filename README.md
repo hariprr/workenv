@@ -17,19 +17,37 @@ tmux source-file .tmux.conf
   tmux n -s <new_session>       | create new session
   tmux a -t <session_to_attch>  | attach to existing
   C-a + t                       | display current time 
+  C-a + w                       | show all windows & panes  
+  C-a + !                       | break-out current pane  
+  C-a + joinpane -t <#>         | merge window as a pane  
   
 #### _copy text_  
     C-a + [        # copy mode 
-    CTRL + SPACE   # begin copy  
-    CTRL + w       # copy into tmux buffer 
-    C-a + ]        # paste in dest pane/window 
+    CTRL + SPACE   # select text  
+    CTRL + w       # copy
+    C-a + ]        # paste
 
 # vim
 [vimrc](vimrc)  
 
   Command                       | Description
   ---------------------------   | -------------
-  .                             | repeat prev command  
+  .                             | repeat prev cmd  
+  :                             | browse prev cmds  
+  q:                            | cmd history  
+  q/                            | search cmd history  
+  shift + %                     | jump to matching brace
+  shift + ()                    | jump funcs  
+  
+  # vscode
+[vscode/setup.txt](setup)  
+
+  Command                       | Description
+  ---------------------------   | -------------
+  CMD + SHIFT + B               | build
+  CMD + SHIFT + J               | terminal focus
+  CMD + SHIFT + K               | editor focus
+  CTRL + ~                      | close/open terminal  
   
 <!--- this is a comment ---> 
 <!--- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; # adds 6 space --->
