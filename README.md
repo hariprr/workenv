@@ -23,8 +23,8 @@ tmux source-file .tmux.conf
   
 #### _copy text_  
     C-a + [        # copy mode 
-    CTRL + SPACE   # select text  
-    CTRL + w       # copy
+    ctrl + space   # select text  
+    ctrl + w       # copy
     C-a + ]        # paste
 
 ## vim
@@ -44,10 +44,10 @@ tmux source-file .tmux.conf
 
   Command                       | Description
   ---------------------------   | -------------
-  CMD + SHIFT + B               | build
-  CMD + SHIFT + J               | terminal focus
-  CMD + SHIFT + K               | editor focus
-  CTRL + ~                      | close/open terminal  
+  cmd + shift + B               | build
+  cmd + shift + J               | terminal focus
+  cmd + shift + K               | editor focus
+  ctrl + ~                      | close/open terminal  
   
 <!--- this is a comment ---> 
 <!--- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; # adds 6 space --->
