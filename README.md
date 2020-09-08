@@ -40,7 +40,7 @@ tmux source-file .tmux.conf
   shift + ()                    | jump funcs  
   
   # vscode
-[vscode/setup.txt](setup)  
+[setup](vscode/setup.txt)  
 
   Command                       | Description
   ---------------------------   | -------------
