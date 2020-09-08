@@ -1,11 +1,11 @@
 # workenv
 work environment setup
 
-# ssh passwordless login
-ssh-keygen -t rsa -b 4096 -C "name"
-ls ~/.ssh/id_*
-output: /root/.ssh/id_rsa  /root/.ssh/id_rsa.pub
-ssh-copy-id username@server_ip_address
+## ssh passwordless login 
+ssh-keygen -t rsa -b 4096 -C "name" 
+ls ~/.ssh/id_*  
+output: /root/.ssh/id_rsa  /root/.ssh/id_rsa.pub  
+ssh-copy-id username@server_ip_address  
 
 # tmux  
 [tmux.conf](tmux.conf)  
