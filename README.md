@@ -7,9 +7,20 @@ work environment setup
     output: /root/.ssh/id_rsa  /root/.ssh/id_rsa.pub  
     ssh-copy-id username@server_ip_address  
 
+## bash
+source ~/.[bashrc](bashrc)
+
+  Command                       | Description
+  ---------------------------   | -------------
+  echo $SHELL                   | active shell
+  cat /etc/shells               | list shells
+  ctrl + a                      | start of cmd
+  ctrl + e                      | end of cmd
+  ctrl + r                      | search cmd history
+  
+  
 ## tmux  
-[tmux.conf](tmux.conf)  
-tmux source-file .tmux.conf  
+tmux source-file [.tmux.conf](tmux.conf)
 
   Command                       | Description
   ---------------------------   | -------------
