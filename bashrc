@@ -1,6 +1,7 @@
 
 # ~/.zshrc for /bin/zsh
 # ~/.bash_profile for mac /bin/bash
+# use double-quotes in mac
 
 # prompt
 PS1='[\u@\h:\W]$ 
