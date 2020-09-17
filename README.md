@@ -68,15 +68,15 @@ tmux source-file [.tmux.conf](tmux.conf)
   
   <!--- https://www.brianstorti.com/vim-registers/ --->
   
-   #### vim marks
+   #### vim markers
   Command                       | Description
   ---------------------------   | -------------
   ma                            | set a marker 'a' (a-z)
   'a                            | jump to marker 'a'
   mA                            | global file marks (A-Z)
   :marks                        | display all marks
-  :marks ac                     | display marks a-c
-  :delm az                      | delete marks from a-z
+  :marks a-c                    | display marks a-c
+  :delm a-z                     | delete marks from a-z
     
   <!--- https://dockyard.com/blog/2014/04/10/vim-on-your-mark --->
   
