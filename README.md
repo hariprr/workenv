@@ -50,6 +50,25 @@ tmux source-file [.tmux.conf](tmux.conf)
   shift + %                     | jump to matching brace
   shift + ()                    | jump funcs  
   
+  #### vim registers
+  Command                       | Description
+  ---------------------------   | -------------
+  :reg                          | view all reg
+  :reg w                        | view reg w
+  "ry                           | yank selected text to reg r
+  "rp                           | paste reg r contents
+  ctrl+r r                      | paste reg r contents in insert mode
+  /ctrl+r r                     | search reg r coontents
+  ""p                           | paste last deleted text (unnamed reg)
+  "0-9                          | last 10 yanked texts
+  ".                            | last inserted text
+  "%                            | current file path
+  ":                            | last executed command
+  @:                            | run last executed command
+  
+  <!--- https://www.brianstorti.com/vim-registers/ --->
+  
+  
 ## vscode
 [setup](vscode/setup.txt)  
 
