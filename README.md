@@ -49,6 +49,7 @@ tmux source-file [.tmux.conf](tmux.conf)
   q/                            | search cmd history  
   shift + %                     | jump to matching brace
   shift + ()                    | jump funcs  
+  :w new_name.file              | save as
   
   #### vim registers
   Command                       | Description
