@@ -18,6 +18,8 @@ source ~/.[bashrc](bashrc)
   ctrl + e                      | end of cmd
   ctrl + r                      | search cmd history
   
+## GDB
+[cheat sheet](https://gist.github.com/hariprr/816a32f5cd77288f726a1f2f98baaa44)
   
 ## tmux  
 tmux source-file [.tmux.conf](tmux.conf)
