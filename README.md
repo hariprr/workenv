@@ -54,6 +54,17 @@ tmux source-file [.tmux.conf](tmux.conf)
   :w new_name.file              | save as
   :%s/\s\+$//e                  | remvoe trailing whitespaces
   
+  #### vim scrolling
+  Command                       | Description
+  ---------------------------   | -------------
+  ctrl + e                      | Scroll window [count] lines downwards in the buffer.
+  ctrl + y                      | Scroll window [count] lines upwards in the buffer.
+  ctrl + d                      | page down
+  ctrl + u                      | page up
+  zz                            | cursor line to middle of window
+  zt                            | cursor line to top of window
+  zb                            | cursor line to bottom of window
+  
   #### vim registers
   Command                       | Description
   ---------------------------   | -------------
