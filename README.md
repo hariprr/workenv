@@ -52,7 +52,7 @@ tmux source-file [.tmux.conf](tmux.conf)
   shift + %                     | jump to matching brace
   shift + ()                    | jump funcs  
   :w new_name.file              | save as
-  %s/\s\+$//e                   | remvoe trailing whitespaces
+  :%s/\s\+$//e                  | remvoe trailing whitespaces
   
   #### vim registers
   Command                       | Description
