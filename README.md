@@ -32,7 +32,8 @@ tmux source-file [.tmux.conf](tmux.conf)
   C-a + t                       | display current time 
   C-a + w                       | show all windows & panes  
   C-a + !                       | break-out current pane  
-  C-a + joinpane -t <#>         | merge window as a pane  
+  C-a + :join-pane -t <#>       | merge window as a pane  
+  C-a + :swap-window -s 3 -t 1  | change window index/order
   
 #### _copy text_  
     C-a + [        # copy mode 
