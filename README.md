@@ -24,16 +24,17 @@ source ~/.[bashrc](bashrc)
 ## tmux  
 tmux source-file [.tmux.conf](tmux.conf)
 
-  Command                       | Description
-  ---------------------------   | -------------
-  tmux ls                       | list sessions
-  tmux n -s <new_session>       | create new session
-  tmux a -t <session_to_attch>  | attach to existing
-  C-a + t                       | display current time 
-  C-a + w                       | show all windows & panes  
-  C-a + !                       | break-out current pane  
-  C-a + :join-pane -t <#>       | merge window as a pane  
-  C-a + :swap-window -s 3 -t 1  | change window index/order
+  Command                           | Description
+  ---------------------------       | -------------
+  tmux ls                           | list sessions
+  tmux n -s <new_session>           | create new session
+  tmux a -t <session_to_attch>      | attach to existing
+  C-a + t                           | display current time 
+  C-a + w                           | show all windows & panes  
+  C-a + !                           | break-out current pane  
+  C-a + :join-pane -t <#>           | merge window as a pane  
+  C-a + :swap-window -s 3 -t 1      | change window index/order
+  C-a + :rename-window <new name>   | rename a window
   
 #### _copy text_  
     C-a + [        # copy mode 
