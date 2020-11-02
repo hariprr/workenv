@@ -21,6 +21,28 @@ source ~/.[bashrc](bashrc)
 ## GDB
 [cheat sheet](https://gist.github.com/hariprr/816a32f5cd77288f726a1f2f98baaa44)
   
+  Command                           | Description
+  ---------------------------       | -------------
+  bt                                | backtrace
+  bt full                           | full backtrace
+  list                              | lists code snippet ( == l)
+  b <line number>                   | add a breakpoint
+  info b                            | list all breakpoints
+  where                             | == bt
+  info stack                        | == bt
+  info local                        | print all vars in current frame
+  info frame                        | describes current stack
+  frame #                           | go to frame # ( == f #)
+  thread #                          | go to thread # ( == t #)
+  print <var>                       | print contents of a var ( == p)
+  print &<var>                      | print addr of a var
+  info registers <name>             | print contents of a register
+  show env COREFILE                 | prints corefile location
+  print (char *)$sp                 | to print char var
+  thread apply all where            | apply bt to all threads
+  list #                            | lists code snippet around line #
+    
+  
 ## tmux  
 tmux source-file [.tmux.conf](tmux.conf)
 
@@ -29,6 +51,7 @@ tmux source-file [.tmux.conf](tmux.conf)
   tmux ls                           | list sessions
   tmux n -s <new_session>           | create new session
   tmux a -t <session_to_attch>      | attach to existing
+  tmux kill -t <session_name>       | delete a session
   C-a + t                           | display current time 
   C-a + w                           | show all windows & panes  
   C-a + !                           | break-out current pane  
