@@ -121,6 +121,17 @@ tmux source-file [.tmux.conf](tmux.conf)
     
   <!--- https://dockyard.com/blog/2014/04/10/vim-on-your-mark --->
   
+   #### vim search and replace
+  Command                       | Description
+  ---------------------------   | -------------
+  ^                             | start of line
+  $                             | end of line 
+  \s                            | white-space
+  \C                            | case-sensitive
+  ^$                            | empty lines
+  /\v                           | regex mode in search
+  /\vword1|word2|word3          | search multiple words
+  
 ## vscode
 [setup](vscode/setup.txt)  
 
