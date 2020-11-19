@@ -1,11 +1,25 @@
 # workenv
 work environment setup
 
-### ssh passwordless login 
+## ssh
+* ssh passwordless login 
+    ```
     ssh-keygen -t rsa -b 4096 -C "name"  
     ls ~/.ssh/id_*  
     output: /root/.ssh/id_rsa  /root/.ssh/id_rsa.pub  
     ssh-copy-id username@server_ip_address  
+    ``` 
+* run commands after logging into ssh session
+    * place commands in ~/.ssr/rc
+* run commands after logging into ssh session - alternate
+    ```
+    if [[ -n $SSH_CONNECTION ]] ; then
+        echo "I'm logged in remotely"
+    fi
+    ```
+* runs command and then prompts ssh login
+    * $ ssh -t server 'cmd; exec bash -l'
+ 
 
 ## bash
 source ~/.[bashrc](bashrc)
