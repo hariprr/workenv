@@ -10,14 +10,14 @@ work environment setup
     ssh-copy-id username@server_ip_address  
     ``` 
 * run commands after logging into ssh session
-    * place commands in ~/.ssr/rc
+    * place commands in ~/.ssh/rc
 * run commands after logging into ssh session - alternate
     ```
     if [[ -n $SSH_CONNECTION ]] ; then
         echo "I'm logged in remotely"
     fi
     ```
-* runs command and then prompts ssh login
+* runs command and then prompts ssh login - slow
     * $ ssh -t server 'cmd; exec bash -l'
  
 
