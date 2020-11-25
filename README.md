@@ -93,6 +93,7 @@ tmux source-file [.tmux.conf](tmux.conf)
   :w new_name.file              | save as
   :%s/\s\+$//e                  | remvoe trailing whitespaces
   visual_mod + shift + i        | to insert in visual mode (esc insert mode to reflect changes)
+  set wrap                      | text wrap
   
   #### vim scrolling
   Command                       | Description
