@@ -72,6 +72,7 @@ tmux source-file [.tmux.conf](tmux.conf)
   C-a + :join-pane -t <#>           | merge window as a pane  
   C-a + :swap-window -s 3 -t 1      | change window index/order
   C-a + :rename-window <new name>   | rename a window
+  C-a + :setw synchronize-panes off | sync commands across panes
   
 #### _copy text_  
     C-a + [        # copy mode 
