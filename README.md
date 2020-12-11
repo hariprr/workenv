@@ -33,8 +33,8 @@ source ~/.[bashrc](bashrc)
   ctrl + r                      | search cmd history
   
   Run a command in a loop with diffn arguments
-  * for param in arg1 arg2; do <cmd> $param; done
-  * echo "arg1 arg2" | xargs <cmd>
+  * for param in arg1 arg2; do \<cmd\> $param; done
+  * echo "arg1 arg2" | xargs \<cmd\>
   
 ## GDB
 [cheat sheet](https://gist.github.com/hariprr/816a32f5cd77288f726a1f2f98baaa44)
