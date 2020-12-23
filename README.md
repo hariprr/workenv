@@ -158,7 +158,7 @@ tmux source-file [.tmux.conf](tmux.conf)
   \C                            | case-sensitive
   ^$                            | empty lines
   /\v                           | regex mode in search
-  /\vword1|word2|word3          | search multiple words
+  /\vword1\|word2\|word3        | search multiple words
   
 ## vscode
 [setup](vscode/setup.txt)  
