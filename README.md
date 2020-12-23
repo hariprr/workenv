@@ -130,6 +130,8 @@ tmux source-file [.tmux.conf](tmux.conf)
   "%                            | current file path
   ":                            | last executed command
   @:                            | run last executed command
+  vim +40 filename              | open file and go to line# 40
+  vim +/pattern filename        | open file and go to pattern
   
   <!--- https://www.brianstorti.com/vim-registers/ --->
   
