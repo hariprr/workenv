@@ -37,7 +37,9 @@ source ~/.[bashrc](bashrc)
   * for param in arg1 arg2; do \<cmd\> $param; done
   * echo "arg1 arg2" | xargs \<cmd\>
   * echo "arg1 arg2" | xargs -t \<cmd\>     # print cmds
-
+  
+  Run output of grep as a command
+  * grep pattern file.name | sh -
   
 
 ## GDB
