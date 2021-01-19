@@ -160,6 +160,11 @@ tmux source-file [.tmux.conf](tmux.conf)
   /\v                           | regex mode in search
   /\vword1\|word2\|word3        | search multiple words
   
+## nvim (neovim)
+[init.vim](init.vim)
+
+
+
 ## vscode
 [setup](vscode/setup.txt)  
 
