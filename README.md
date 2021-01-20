@@ -21,7 +21,7 @@ work environment setup
     * $ ssh -t server 'cmd; exec bash -l'
  
 ## git
-  New Repo                      |
+  New Repo                      | Description
   ---------------------------   | -------------
   git config --global user.email|
   git init                      | init a new repo (creates .git)
@@ -33,8 +33,9 @@ work environment setup
   git add *.html                | stage all html files
   .gitignore                    | add files to ignore for git
   git commit -a -m "new file"   | commit staged changes
+  git push                      | push changes 
 
-  Branching                     |
+  Branching                     | Description
   ---------------------------   | -------------
   git branch newBranch          | create a new branch
   git checkout newBranch        | switch to new branch
@@ -42,12 +43,12 @@ work environment setup
   git merge newBranch           | merge new branch to master
                                 | command shd be run from master branch
                                 
-  Stashing                      |
+  Stashing                      | Description
   ---------------------------   | -------------
   git stash                     | shelve un-commited changes
   git stash apply               | stage stashed changes to current branch
   
-  Remote Repo                   |
+  Remote Repo                   | Description
   ---------------------------   | -------------
   git remote                    | show remote repos
   git clone <url>               | pulls a repo
