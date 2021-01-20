@@ -40,8 +40,7 @@ work environment setup
   git branch newBranch          | create a new branch
   git checkout newBranch        | switch to new branch
   git checkout master           | checkout master
-  git merge newBranch           | merge new branch to master
-                                | command shd be run from master branch
+  git merge newBranch           | merge new branch to master command shd be run from master branch
                                 
   Stashing                      | Description
   ---------------------------   | -------------
