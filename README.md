@@ -21,13 +21,38 @@ work environment setup
     * $ ssh -t server 'cmd; exec bash -l'
  
 ## git
-* git clone <repo>
-* git config --global user.email
-* git add "file.name"
-* git commit -m "commit message"
-* git commit -a
-* git push
-
+  Command                       | Description
+  ---------------------------   | -------------
+  git config --global user.email|
+  git init                      | init a new repo (creates .git)
+  git status                    | lists staging etc,.
+  git add "file.name"           | stage file for commit
+  git commit -m "commit msg"    | add a commit msg
+  git log                       | show git log
+  git add .                     | stage all files
+  git add *.html                | stage all html files
+  .gitignore                    | add files to ignore for git
+  git commit -a -m "new file"   | commit staged changes
+  Branching
+  ---------------------------   | -------------
+  git branch newBranch          | create a new branch
+  git checkout newBranch        | switch to new branch
+  git checkout master           | checkout master
+  git merge newBranch           | merge new branch to master
+                                | command shd be run from master branch
+  Stashing
+  ---------------------------   | -------------
+  git stash                     | shelve un-commited changes
+  git stash apply               | stage stashed changes to current branch
+  Remote Repos
+  ---------------------------   | -------------
+  git remote                    | show remote repos
+  git clone <url>               | pulls a repo
+  git remote -v                 | show remote repo url
+  git fetch origin              | fetch changes from remote; doesn't merge
+  git pull origin               | fetch and merge remote changes
+  git push origin master        | push/commit local changes to remote master
+  git remote add newM <url>     | add a new origin
 
 ## bash
 source ~/.[bashrc](bashrc)
