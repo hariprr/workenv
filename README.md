@@ -101,6 +101,9 @@ tmux source-file [.tmux.conf](tmux.conf)
 ## vim
 [vimrc](vimrc)  
 
+  Set symlink vimrc to a git-cloned workspace
+  ln -sf ~/Downloads/workenv/vimrc ~/.vimrc
+  
   Command                       | Description
   ---------------------------   | -------------
   .                             | repeat prev cmd  
@@ -113,7 +116,21 @@ tmux source-file [.tmux.conf](tmux.conf)
   :%s/\s\\+$//e                 | remvoe trailing whitespaces
   visual_mod + shift + i        | to insert in visual mode (esc insert mode to reflect changes)
   set wrap                      | text wrap
+  set showcmd                   | show commands on status line
   vim <directory>               | Navigate through dirs and open files
+  :set path?                    | view path variable
+  :find test.file               | Find and open test.file
+  :find *.file                  | Find all files fuzzy-matching *.file
+  :ls                           | Displays recently opened files in buffer
+  :b filename                   | Open files from buffer
+  
+  #### vim navigation
+  Command                       | Description
+  ---------------------------   | -------------
+  w                             | jump to next word
+  W                             | jump to next word (space delimited)
+  e                             | jump to end of next word
+  E                             | jump to end of next word (space delimited)
   
   #### vim scrolling
   Command                       | Description
@@ -126,9 +143,23 @@ tmux source-file [.tmux.conf](tmux.conf)
   zt                            | cursor line to top of window
   zb                            | cursor line to bottom of window
   
+  #### vim edit
+  Command                       | Description
+  ---------------------------   | -------------
+  operator + text_object        | combine operations in normal mode
+  cw                            | change word
+  ciw                           | change inner word
+  ciW                           | change inner word (space delimited)
+  ci"                           | change word inside "
+  ci<symbol>                    | change word inside <symbol>
+  cit                           | change word inside html tags
+  dw                            | delete word
+  diw                           | delete inner word
+  
   #### vim registers
   Command                       | Description
   ---------------------------   | -------------
+  "+yy                          | copy curr line to clipboard
   :reg                          | view all reg
   :reg w                        | view reg w
   "ry                           | yank selected text to reg r
