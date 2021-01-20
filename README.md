@@ -20,6 +20,14 @@ work environment setup
 * runs command and then prompts ssh login - slow
     * $ ssh -t server 'cmd; exec bash -l'
  
+## git
+* git clone <repo>
+* git config --global user.email
+* git add "file.name"
+* git commit -m "commit message"
+* git commit -a
+* git push
+
 
 ## bash
 source ~/.[bashrc](bashrc)
