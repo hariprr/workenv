@@ -1,9 +1,22 @@
 " Turn on syntx highlighting
 syntax on
 
-" needed for vimWiki
+" For vimWiki
 set nocompatible
 filetype plugin on
+filetype plugin indent on
+
+" show existing tab with 4 spaces width
+set tabstop=4
+
+" when indenting with '>' use 4 spaces width
+set shiftwidth=4
+
+" on pressing tab, insert 4 spaces
+set expandtab
+
+" double esc to save file
+map <Esc><Esc> :w<CR>
 
 " Highlight matching pairs of brackets. Use the '%' character to jump between them.
 set matchpairs+=<:>
@@ -64,3 +77,12 @@ endfunction
     
 map !n :call ToggleNumber()<cr>
 map !p :call TogglePaste()<cr>
+
+" How to Do 90% of What Plugins Do (With Just Vim)
+" https://www.youtube.com/watch?v=XA2WjJbmmoM
+
+" FINDING FILES
+
+" Search down into subfolders
+" Provides tab-completion for all file-related tasks
+set path+=**
