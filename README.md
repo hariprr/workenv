@@ -231,6 +231,14 @@ tmux source-file [.tmux.conf](tmux.conf)
 ## nvim (neovim)
 [init.vim](init.vim)
 
+## regex 
+
+  Command                       | Description
+  ---------------------------   | -------------
+  \s+$                          | trailing white space
+  [^\x00-\x7F]                  | check non-ASCII
+  \b\s{2,}                      | word boundary + 2 spaces
+  
 
 
 ## vscode
