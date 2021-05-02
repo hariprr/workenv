@@ -7,3 +7,10 @@ In VS Code:
 File>>Preference>>Settings>>Extensions
 find C_Cpp>Default:Cpp Standard drop down menu
 set that to c++11
+
+// add c_cpp_properties
+CMD + Shift + P - edit cpp
+
+// add tasks - for debugging
+CMD + Shift + P - configure tasks
+/
