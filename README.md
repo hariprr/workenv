@@ -68,6 +68,13 @@ source ~/.[bashrc](bashrc)
   ctrl + e                      | end of cmd
   ctrl + r                      | search cmd history
   watch \<cmd\>                 | run a cmd in regular interval
+  !!                            | repeat prev cmd
+  !:0 (tab)                     | just the cmd
+  !^                            | first arg
+  !$                            | last arg
+  !*                            | all args
+  !:2                           | second arg
+  
   
   Run a command in a loop with diffn arguments
   * for param in arg1 arg2; do \<cmd\> $param; done
