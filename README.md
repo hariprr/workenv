@@ -74,6 +74,8 @@ source ~/.[bashrc](bashrc)
   !$                            | last arg
   !*                            | all args
   !:2                           | second arg
+  find . -name "foo.*"          | recursive find file with name
+  sed -n '60,65p' <fname>       | print lines 60-65 of a file
   
   
   Run a command in a loop with diffn arguments
