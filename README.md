@@ -248,7 +248,12 @@ tmux source-file [.tmux.conf](tmux.conf)
   [^\x00-\x7F]                  | check non-ASCII
   \b\s{2,}                      | word boundary + 2 spaces
   
-
+## grep
+  
+  Command                       | Description
+  ---------------------------   | -------------
+  grep -v <>                    | exclude <pattern>
+  grep <> -A 2                  | print next two lines after match
 
 ## vscode
 [setup](vscode/setup.txt)  
