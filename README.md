@@ -254,6 +254,9 @@ tmux source-file [.tmux.conf](tmux.conf)
   ---------------------------   | -------------
   grep -v <>                    | exclude <pattern>
   grep <> -A 2                  | print next two lines after match
+  grep <> -B 2                  | print prev two lines 
+  grep <> -C 2                  | print two lines before and two lines after
+  grep <> -m NUM                | stop after NUM matches
 
 ## vscode
 [setup](vscode/setup.txt)  
