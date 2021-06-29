@@ -86,6 +86,8 @@ source ~/.[bashrc](bashrc)
   Run output of grep as a command
   * grep pattern file.name | sh -
   
+  Redirect terminal output to a file - on mac
+  * /usr/bin/script ~/Desktop/Terminal.log
 
 ## GDB
 [cheat sheet](https://gist.github.com/hariprr/816a32f5cd77288f726a1f2f98baaa44)
