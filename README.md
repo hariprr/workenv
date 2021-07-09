@@ -91,6 +91,8 @@ source ~/.[bashrc](bashrc)
 
 ## GDB
 [cheat sheet](https://gist.github.com/hariprr/816a32f5cd77288f726a1f2f98baaa44)
+    
+x86 is little-endian - read bytes backwards
   
   Command                           | Description
   ---------------------------       | -------------
