@@ -261,7 +261,11 @@ tmux source-file [.tmux.conf](tmux.conf)
   grep <> -B 2                  | print prev two lines 
   grep <> -C 2                  | print two lines before and two lines after
   grep <> -m NUM                | stop after NUM matches
-
+ 
+## c++ compile
+    
+    clang++ -Wall -std=c++14 program.cpp -o program
+    
 ## vscode
 [setup](vscode/setup.txt)  
 
